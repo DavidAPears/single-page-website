@@ -3,7 +3,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Welcome To",
-  headline: "Hannah Porters Website",
+  headline: "Hannah Porter's Website",
   description:
     "We do professional stuff which is explained in this tagline here",
   address: "Princess Street, Edinburgh, UK, EH01 1AB. +44 (0)7815 123 456",
