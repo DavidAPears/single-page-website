@@ -51,7 +51,7 @@ function HeroSection({
                 </p>
                 <EmailButton
                   label="E-mail"
-                  mailto="mailto:davidapears@gmail.com"
+                  mailto="mailto:hannahcporter1@gmail.com"
                   buttonSize="btn--wide"
                   buttonColor="blue"
                 />
