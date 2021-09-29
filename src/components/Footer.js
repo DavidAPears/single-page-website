@@ -71,13 +71,6 @@ function Footer() {
       </div>
       <section className="social-media">
         <div className="social-media-wrap">
-          <div className="footer-logo">
-            <Link to="/" className="social-logo">
-              <MdFingerprint className="navbar-icon" />
-              LAVISH
-            </Link>
-          </div>
-          <small className="website-rights">LAVISH © 2020</small>
           <div className="social-icons">
             <Link
               className="social-icon-link"
