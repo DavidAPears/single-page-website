@@ -1,4 +1,4 @@
-# Level Studios - A White Label Mobile-Responsive React Website
+# Very simple single-page, mobile-responsive react site
 
 
 
