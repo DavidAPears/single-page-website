@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "../components/Button";
 import { Link } from "react-router-dom";
 import {
   FaFacebook,
@@ -8,7 +7,6 @@ import {
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
-import { MdFingerprint } from "react-icons/md";
 
 import "./Footer.css";
 

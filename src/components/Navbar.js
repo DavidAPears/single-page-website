@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { IconContext } from "react-icons/lib";
 
@@ -7,7 +7,7 @@ import "./Navbar.css";
 // import { MdFingerprint } from "react-icons/md";
 // import { FaBars, FaTimes } from "react-icons/fa";
 
-import levelStudiosLogo from "../images/whiteLogo.png";
+import MarchCreativeManagementLogo from "../images/whiteLogo.png";
 
 function Navbar() {
   // const [click, setClick] = useState(false);
@@ -48,12 +48,12 @@ function Navbar() {
               // onClick={closeMobileMenu}
             >
               <img
-                src={levelStudiosLogo}
-                className="level-logo"
+                src={MarchCreativeManagementLogo}
+                className="march-logo"
                 alt="fireSpot"
               />
               {/* <MdFingerprint className="navbar-icon" /> */}
-              Hannah Porter
+              {/* March Creative Management */}
             </Link>
             {/* <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
