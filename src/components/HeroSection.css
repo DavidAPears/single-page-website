@@ -1,4 +1,5 @@
 .home__hero-section {
+
     color: #fff;
     padding: 100px 0;
   }
@@ -32,6 +33,7 @@
   }
   
   .top-line {
+ 
     color: #44bf4d;
     font-size: 16px;
     line-height: 16px;
@@ -42,6 +44,7 @@
   }
   
   .heading {
+
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;

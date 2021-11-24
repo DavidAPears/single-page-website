@@ -7,7 +7,7 @@ import "./Navbar.css";
 // import { MdFingerprint } from "react-icons/md";
 // import { FaBars, FaTimes } from "react-icons/fa";
 
-import MarchCreativeManagementLogo from "../images/whiteLogo.png";
+import MarchCreativeManagementLogo from "../images/whiteLogoNoText.png";
 
 function Navbar() {
   // const [click, setClick] = useState(false);

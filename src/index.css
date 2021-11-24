@@ -1,13 +1,17 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'OfficialFont';
+  src: local('OfficialFont'), url(./design/Fonts/metropolis/Metropolis-Regular.otf) format('truetype');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'OfficialFont';
+  src: local('OfficialFont'), url(./design/Fonts/metropolis/Metropolis-Regular.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OfficialFont';
+  src: local('OfficialFont'), url(./design/Fonts/metropolis/Metropolis-Regular.otf) format('truetype');
 }

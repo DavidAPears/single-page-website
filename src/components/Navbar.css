@@ -34,15 +34,15 @@
     justify-self: flex-start;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     white-space: pre-line;
   }
 
   .march-logo{
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
   }
   
   .navbar-icon {

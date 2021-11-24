@@ -1,0 +1,4 @@
+.font-face-metro {
+    font-family: "Metropolis";
+    src: local('Metropolis'), url('../design//Fonts/metropolis/Metropolis-Regular.otf') format('woff');
+   }
