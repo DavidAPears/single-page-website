@@ -8,6 +8,7 @@ function HeroSection({
   lightText,
   lightTextDesc,
   headline,
+  headline2,
   description,
   address,
   imgStart,
@@ -30,6 +31,9 @@ function HeroSection({
                 <div className="top-line">{topLine}</div>
                 <h1 className={lightText ? "heading" : "heading dark"}>
                   {headline}
+                </h1>
+                <h1 className={lightText ? "heading2" : "heading2 dark"}>
+                  {headline2}
                 </h1>
                 <p
                   className={
