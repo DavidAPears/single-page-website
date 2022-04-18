@@ -21,9 +21,10 @@ function HeroSection() {
         </div>
         <EmailButton
           label="E-mail"
-          mailto="mailto:hannahcporter1@gmail.com"
+          mailto="mailto: info@marchcreativemgmt.com"
           buttonSize="btn--wide"
           buttonColor="blue"
+          target="_blank"
         />
       </div>
     </>
