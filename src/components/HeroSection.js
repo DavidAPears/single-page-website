@@ -1,68 +1,30 @@
 import React from "react";
 import "./HeroSection.css";
 import { EmailButton } from "./EmailButton";
+import background from "../images/whiteLogoNoText.png";
 
-function HeroSection({
-  lightBg,
-  topLine,
-  lightText,
-  lightTextDesc,
-  headline,
-  headline2,
-  description,
-  address,
-  imgStart,
-}) {
+function HeroSection() {
   return (
     <>
-      <div
-        className={lightBg ? "home__hero-section" : "home__hero-section darkBg"}
-      >
-        <div className="container">
-          <div
-            className="row home__hero-row"
-            style={{
-              display: "flex",
-              flexDirection: imgStart === "start" ? "row-reverse" : "row",
-            }}
-          >
-            <div className="col">
-              <div className="home__hero-text-wrapper">
-                <div className="top-line">{topLine}</div>
-                <h1 className={lightText ? "heading" : "heading dark"}>
-                  {headline}
-                </h1>
-                <h1 className={lightText ? "heading2" : "heading2 dark"}>
-                  {headline2}
-                </h1>
-                <p
-                  className={
-                    lightTextDesc
-                      ? "home__hero-subtitle"
-                      : "home__hero-subtitle dark"
-                  }
-                >
-                  {description}
-                </p>
-                <p
-                  className={
-                    lightTextDesc
-                      ? "home__hero-address"
-                      : "home__hero-address dark"
-                  }
-                >
-                  {address}
-                </p>
-                <EmailButton
-                  label="E-mail"
-                  mailto="mailto:hannahcporter1@gmail.com"
-                  buttonSize="btn--wide"
-                  buttonColor="blue"
-                />
-              </div>
-            </div>
-          </div>
+      <div className="home__container">
+        <div
+          className="home__bgimage"
+          style={{
+            backgroundImage: `url(${background})`,
+          }}
+        />
+        <div className="home__copy">
+          <p>
+            March Creative is an entertainment management company that
+            represents creators, writers and directors across all media
+          </p>
         </div>
+        <EmailButton
+          label="E-mail"
+          mailto="mailto:hannahcporter1@gmail.com"
+          buttonSize="btn--wide"
+          buttonColor="blue"
+        />
       </div>
     </>
   );
